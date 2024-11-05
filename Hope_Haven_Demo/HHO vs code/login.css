@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapics.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-image: url("../Images/background13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    
+}
+
+label{
+    color: white;
+    font-size: large;
+    display: inline;
+     margin-bottom: 10px;
+    background-color: hsla(0,100%,30%,opacity);
+}
+
+.password-containter {
+    height: 400px;
+    width: 500px;
+    background-color:rgba(8, 112, 239, 0.31);
+    border-radius: 50px;
+    display: block;
+    margin:40px; 
+    text-align: center;
+    transform: translateY(20vh);   
+  
+  }
+
+
+ 
+
+/* Input styling */
+input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.logging{
+    transform: translateY(20vh);
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: #3b59ef; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    transform: translateY(25vh);
+}
+h2{
+    transform: translateY(10vh);
+    
+}
+.password-containter p{
+    color: white;
+    transform: translateY(20vh);
+}
+
+.password-containter a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    background-color: green;
+}
+
+.password-containter h2{
+    color: white;
+}
